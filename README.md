@@ -1,112 +1,89 @@
-# EmpowerHer - Gender-Based Violence Reporting Platform
+# 💜 EmpowerHer - Gender-Based Violence Reporting Platform
+
+> **Empowering Victims, Accelerating Justice**
 
 EmpowerHer is a secure, free, and confidential platform designed to help survivors of gender-based violence report incidents, access support services, and track their cases. The platform prioritizes user privacy, security, and provides AI-powered assistance to guide users through their journey.
 
-## 🌟 Features
+🌐 **Live Application**: [https://empowerhercom.vercel.app/](https://empowerhercom.vercel.app/)  
+🔧 **API Endpoint**: [https://group-44-hackathon.onrender.com](https://group-44-hackathon.onrender.com)
 
-### 1. **Free & Accessible**
-- **No Payment Required**: The platform is completely free to use. No subscriptions, no payment gateways, no barriers to access.
-- **Unlimited Reports**: Users can submit as many incident reports as needed without any restrictions.
-- **Open Access**: All features are available to all users without premium tiers or limitations.
+---
 
-### 2. **AI-Powered Helpline Assistance**
-- **24/7 AI Support**: Get instant, confidential support from our AI assistant
-- **Intelligent Responses**: The AI understands context and provides appropriate guidance
-- **Resource Recommendations**: Get connected to relevant support services based on your needs
-- **Quick Suggestions**: Pre-filled message templates for common scenarios
-- **Emergency Guidance**: Immediate direction to emergency services when needed
+## ✨ Key Features
 
-### 3. **Anonymity Options**
-- **Anonymous Reporting**: Submit reports without linking them to your account
-- **Privacy Protection**: Your identity remains confidential when you choose anonymous mode
-- **Secure Storage**: All reports are encrypted and stored securely
-- **OB Number Tracking**: Even anonymous reports receive tracking numbers for case follow-up
+### 🆓 **100% Free & Accessible**
+- ✅ **No Payment Required**: The platform is completely free to use. No subscriptions, no payment gateways, no barriers to access.
+- ✅ **Unlimited Reports**: Users can submit as many incident reports as needed without any restrictions.
+- ✅ **Open Access**: All features are available to all users without premium tiers or limitations.
 
-### 4. **Comprehensive Audit Trails**
-- **Full Transparency**: See exactly when and how your reports were accessed
-- **Access History**: Track who viewed your report, when, and from where
-- **Status Changes**: Monitor all status updates and case progress
-- **Accountability**: Complete audit log for administrative actions
-- **User Dashboard**: View audit trails for all your reports in one place
+### 🤖 **AI-Powered Helpline Assistance**
+- 💬 **24/7 AI Support**: Get instant, confidential support from our AI assistant
+- 🧠 **Intelligent Responses**: The AI understands context and provides appropriate guidance
+- 📚 **Resource Recommendations**: Get connected to relevant support services based on your needs
+- ⚡ **Quick Suggestions**: Pre-filled message templates for common scenarios
+- 🚨 **Emergency Guidance**: Immediate direction to emergency services when needed
 
-### 5. **Incident Reporting**
-- **Detailed Reports**: Comprehensive form to capture all incident details
-- **Multiple Incident Types**: Support for various forms of gender-based violence
-- **Evidence Documentation**: Record witnesses, evidence, and supporting information
-- **Urgency Levels**: Mark reports as low, medium, high, or emergency priority
-- **Status Tracking**: Real-time updates on case progress
+### 🎭 **Anonymity Options**
+- 🔒 **Anonymous Reporting**: Submit reports without linking them to your account
+- 🛡️ **Privacy Protection**: Your identity remains confidential when you choose anonymous mode
+- 🔐 **Secure Storage**: All reports are encrypted and stored securely
+- 📋 **OB Number Tracking**: Even anonymous reports receive tracking numbers for case follow-up
 
-### 6. **Case Management**
-- **OB Number System**: Unique tracking numbers for each report
-- **Status Updates**: Receive notifications about case progress
-- **Officer Assignment**: Track which officers are handling your case
-- **Case Notes**: View public case notes and updates
-- **Next Steps**: See upcoming actions and deadlines
+### 📊 **Comprehensive Audit Trails**
+- 👁️ **Full Transparency**: See exactly when and how your reports were accessed
+- 📝 **Access History**: Track who viewed your report, when, and from where
+- 🔄 **Status Changes**: Monitor all status updates and case progress
+- ✅ **Accountability**: Complete audit log for administrative actions
+- 📱 **User Dashboard**: View audit trails for all your reports in one place
 
-### 7. **Support Resources**
-- **Helpline Directory**: Access to multiple support services
-- **Emergency Contacts**: Quick access to emergency services
-- **Legal Aid**: Information about legal support services
-- **Medical Support**: Resources for medical care and forensic examination
-- **Counseling Services**: Trauma-informed counseling options
+### 📝 **Incident Reporting**
+- 📋 **Detailed Reports**: Comprehensive form to capture all incident details
+- 🎯 **Multiple Incident Types**: Support for various forms of gender-based violence
+- 📸 **Evidence Documentation**: Record witnesses, evidence, and supporting information
+- ⚠️ **Urgency Levels**: Mark reports as low, medium, high, or emergency priority
+- 📈 **Status Tracking**: Real-time updates on case progress
 
-### 8. **User Dashboard**
-- **Report Overview**: View all your reports in one place
-- **Quick Actions**: Easy access to report incidents, view helplines, and more
-- **Statistics**: Track your active cases and resolved reports
-- **Encouragement Messages**: Words of support and strength
+### 🏛️ **Case Management**
+- 🔢 **OB Number System**: Unique tracking numbers for each report
+- 📢 **Status Updates**: Receive notifications about case progress
+- 👮 **Officer Assignment**: Track which officers are handling your case
+- 📄 **Case Notes**: View public case notes and updates
+- ✅ **Next Steps**: See upcoming actions and deadlines
 
-## 🏗️ Architecture
+### 🆘 **Support Resources**
+- 📞 **Helpline Directory**: Access to multiple support services
+- 🚨 **Emergency Contacts**: Quick access to emergency services
+- ⚖️ **Legal Aid**: Information about legal support services
+- 🏥 **Medical Support**: Resources for medical care and forensic examination
+- 💚 **Counseling Services**: Trauma-informed counseling options
 
-### Technology Stack
+### 📱 **User Dashboard**
+- 📊 **Report Overview**: View all your reports in one place
+- ⚡ **Quick Actions**: Easy access to report incidents, view helplines, and more
+- 📈 **Statistics**: Track your active cases and resolved reports
+- 💜 **Encouragement Messages**: Words of support and strength
 
-**Backend:**
-- Node.js with Express.js
-- MongoDB with Mongoose
-- JWT Authentication
-- RESTful API Architecture
+---
 
-**Frontend:**
-- Next.js 14 (React Framework)
-- TypeScript
-- Tailwind CSS
-- Framer Motion (Animations)
-- React Hook Form (Form Management)
-- Zod (Schema Validation)
+## 🚀 Quick Start
 
-### Project Structure
+### 🌐 **Using the Live Application**
 
-```
-EmpowerHer/
-├── backend/
-│   ├── src/
-│   │   ├── models/          # Database models (User, Report, AuditTrail)
-│   │   ├── routes/           # API routes (auth, reports, admin, helpline, audit)
-│   │   ├── middleware/       # Authentication middleware
-│   │   └── server.js         # Express server setup
-│   └── package.json
-├── frontend/
-│   ├── components/          # React components
-│   │   ├── ReportModal.tsx
-│   │   ├── AIHelplineChat.tsx
-│   │   └── AuditTrailView.tsx
-│   ├── pages/               # Next.js pages
-│   │   ├── dashboard.tsx
-│   │   ├── login.tsx
-│   │   └── register.tsx
-│   └── package.json
-└── README.md
-```
+1. **Visit the Platform**: Go to [https://empowerhercom.vercel.app/](https://empowerhercom.vercel.app/)
+2. **Create an Account**: Click "Sign Up" to create your free account
+3. **Start Reporting**: Click "Report Incident" to submit your first report
+4. **Get Support**: Access the AI Helpline Assistant for 24/7 support
+5. **Track Progress**: View your reports and audit trails from your dashboard
 
-## 🚀 Getting Started
+### 💻 **For Developers - Local Setup**
 
-### Prerequisites
+#### Prerequisites
 
 - Node.js (v16 or higher)
 - MongoDB (local or MongoDB Atlas)
 - npm or yarn
 
-### Installation
+#### Installation Steps
 
 1. **Clone the repository**
    ```bash
@@ -164,128 +141,212 @@ EmpowerHer/
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:5000
 
+---
+
 ## 📖 How It Works
 
-### User Registration & Authentication
+### 👤 **For Survivors**
 
-1. **Register**: Users create an account with email and password
-2. **Login**: Secure JWT-based authentication
-3. **Session Management**: Tokens stored securely in browser
+#### 1. **Getting Started**
+   - Create a free account at [https://empowerhercom.vercel.app/](https://empowerhercom.vercel.app/)
+   - No payment information required
+   - Complete privacy protection
 
-### Reporting an Incident
+#### 2. **Reporting an Incident**
+   - Click "Report Incident" on your dashboard
+   - Choose to report anonymously or with your account
+   - Fill out the comprehensive form:
+     - Personal information (optional if anonymous)
+     - Incident details (type, date, time, location)
+     - Description and evidence
+     - Urgency level
+     - Consent options
+   - Submit your report securely
+   - Receive a unique OB number for tracking
 
-1. **Access Report Form**: Click "Report Incident" on dashboard
-2. **Choose Anonymity**: Option to submit anonymously
-3. **Fill Details**: Complete multi-step form with:
-   - Personal information (optional if anonymous)
-   - Incident details (type, date, time, location)
-   - Description and evidence
-   - Urgency level
-   - Consent options
-4. **Submit**: Report is encrypted and stored securely
-5. **Receive OB Number**: Unique tracking number for case follow-up
+#### 3. **Using AI Helpline Assistant**
+   - Click "AI Helpline Assistant" on your dashboard
+   - Start a conversation with our AI support
+   - Get instant guidance, resources, and support
+   - Access emergency contacts when needed
+   - Use quick suggestion buttons for common questions
 
-### AI Helpline Assistant
+#### 4. **Tracking Your Case**
+   - View all your reports on the dashboard
+   - See real-time status updates
+   - Check assigned officers and case notes
+   - View complete audit trail of who accessed your report
+   - Monitor case progress from submission to resolution
 
-1. **Access Chat**: Click "AI Helpline Assistant" on dashboard
-2. **Start Conversation**: Type your message or use quick suggestions
-3. **Get Support**: AI provides:
-   - Emotional support and validation
-   - Resource recommendations
-   - Emergency guidance
-   - Information about services
-4. **View Resources**: Access directory of support services
+#### 5. **Viewing Audit Trails**
+   - Click "View Audit Trail" on any report
+   - See complete history of:
+     - Who accessed your report
+     - When it was accessed
+     - Status changes
+     - Case notes added
+     - Officer assignments
+   - Full transparency and accountability
 
-### Viewing Audit Trails
+### 👨‍💼 **For Administrators**
 
-1. **Access Reports**: View your reports on the dashboard
-2. **View Audit Trail**: Click "View Audit Trail" on any report
-3. **See History**: View complete log of:
-   - Who accessed the report
-   - When it was accessed
-   - Status changes
-   - Case notes added
-   - Officer assignments
-   - IP addresses (for security)
+1. **Dashboard Access**: View all reports and statistics
+2. **Case Management**: Assign officers, update statuses
+3. **Audit Monitoring**: View complete system audit trails
+4. **User Management**: Manage user accounts and permissions
 
-### Case Management
+### 👮 **For Officers**
 
-1. **Status Updates**: Admins update case status
-2. **Notifications**: Users see updates in real-time
-3. **Officer Assignment**: Cases assigned to specific officers
-4. **Case Notes**: Public notes visible to users
-5. **Resolution**: Cases marked as resolved when complete
+1. **Assigned Cases**: View cases assigned to you
+2. **Update Progress**: Add status updates and case notes
+3. **Communication**: Track interactions with survivors
+4. **Case Resolution**: Mark cases as resolved when complete
 
-## 🔒 Security Features
+---
 
-- **Encryption**: All data encrypted in transit and at rest
-- **JWT Authentication**: Secure token-based authentication
-- **Role-Based Access**: Admin, Officer, and User roles
-- **Audit Logging**: Complete audit trail for accountability
-- **IP Tracking**: Security monitoring through IP logging
-- **Anonymous Mode**: Privacy protection for sensitive cases
-- **Consent Management**: Explicit consent for data sharing
+## 🏗️ Architecture
 
-## 📡 API Endpoints
+### Technology Stack
 
-### Authentication
+**Backend:**
+- 🟢 Node.js with Express.js
+- 🍃 MongoDB with Mongoose
+- 🔐 JWT Authentication
+- 🌐 RESTful API Architecture
+
+**Frontend:**
+- ⚛️ Next.js 14 (React Framework)
+- 📘 TypeScript
+- 🎨 Tailwind CSS
+- ✨ Framer Motion (Animations)
+- 📝 React Hook Form (Form Management)
+- ✅ Zod (Schema Validation)
+
+### Project Structure
+
+```
+EmpowerHer/
+├── backend/
+│   ├── src/
+│   │   ├── models/          # Database models (User, Report, AuditTrail)
+│   │   ├── routes/           # API routes (auth, reports, admin, helpline, audit)
+│   │   ├── middleware/       # Authentication middleware
+│   │   └── server.js         # Express server setup
+│   └── package.json
+├── frontend/
+│   ├── components/          # React components
+│   │   ├── ReportModal.tsx
+│   │   ├── AIHelplineChat.tsx
+│   │   └── AuditTrailView.tsx
+│   ├── pages/               # Next.js pages
+│   │   ├── dashboard.tsx
+│   │   ├── login.tsx
+│   │   └── register.tsx
+│   └── package.json
+└── README.md
+```
+
+---
+
+## 📡 API Documentation
+
+### Base URL
+**Production**: `https://group-44-hackathon.onrender.com/api`  
+**Development**: `http://localhost:5000/api`
+
+### Authentication Endpoints
 - `POST /api/auth/register` - Register new user
 - `POST /api/auth/login` - User login
 - `GET /api/auth/me` - Get current user
 
-### Reports
+### Reports Endpoints
 - `POST /api/reports` - Submit new report
 - `GET /api/reports/:obNumber` - Get report by OB number
 - `GET /api/reports/user/my-reports` - Get user's reports
 - `PUT /api/reports/:obNumber/status` - Update report status (Admin)
 
-### Helpline
+### Helpline Endpoints
 - `POST /api/helpline/chat` - AI chat assistance
 - `GET /api/helpline/resources` - Get support resources
 
-### Audit Trails
+### Audit Trail Endpoints
 - `GET /api/audit/reports/:obNumber` - Get audit trail for report
 - `GET /api/audit/my-reports` - Get audit trails for user's reports
 - `GET /api/audit/all` - Get all audit trails (Admin)
 
-### Admin
+### Admin Endpoints
 - `GET /api/admin/dashboard` - Admin dashboard stats
 - `GET /api/admin/reports` - Get all reports
 - `GET /api/admin/reports/:obNumber` - Get report details
 - `PUT /api/admin/reports/:obNumber/status` - Update report status
 
+### Health Check
+- `GET /api/health` - API health status
+
+---
+
+## 🔒 Security Features
+
+- 🔐 **Encryption**: All data encrypted in transit and at rest
+- 🎫 **JWT Authentication**: Secure token-based authentication
+- 👥 **Role-Based Access**: Admin, Officer, and User roles
+- 📋 **Audit Logging**: Complete audit trail for accountability
+- 🌐 **IP Tracking**: Security monitoring through IP logging
+- 🎭 **Anonymous Mode**: Privacy protection for sensitive cases
+- ✅ **Consent Management**: Explicit consent for data sharing
+- 🛡️ **CORS Protection**: Secure cross-origin resource sharing
+
+---
+
 ## 🎯 Use Cases
 
-### For Survivors
-- Report incidents safely and confidentially
-- Track case progress in real-time
-- Access AI-powered support 24/7
-- View complete audit trail of report access
-- Submit reports anonymously if needed
+### 📱 **For Survivors**
+- ✅ Report incidents safely and confidentially
+- ✅ Track case progress in real-time
+- ✅ Access AI-powered support 24/7
+- ✅ View complete audit trail of report access
+- ✅ Submit reports anonymously if needed
+- ✅ Get connected to support services
 
-### For Administrators
-- Manage all reports from dashboard
-- Assign cases to officers
-- Update case status and add notes
-- View comprehensive audit trails
-- Monitor system activity
+### 👨‍💼 **For Administrators**
+- ✅ Manage all reports from dashboard
+- ✅ Assign cases to officers
+- ✅ Update case status and add notes
+- ✅ View comprehensive audit trails
+- ✅ Monitor system activity
+- ✅ Generate reports and statistics
 
-### For Officers
-- Access assigned cases
-- Update case progress
-- Add case notes
-- Communicate with survivors
+### 👮 **For Officers**
+- ✅ Access assigned cases
+- ✅ Update case progress
+- ✅ Add case notes
+- ✅ Communicate with survivors
+- ✅ Track case resolution
 
-## 🔄 Workflow Example
+---
 
-1. **User registers** → Account created
-2. **User submits report** → OB number generated
-3. **Report appears in admin dashboard** → Admin reviews
-4. **Admin assigns officer** → Case assigned
-5. **Officer updates status** → User sees update
-6. **Case progresses** → Status updates tracked
+## 🔄 Complete Workflow Example
+
+1. **User visits** [https://empowerhercom.vercel.app/](https://empowerhercom.vercel.app/) → Creates account
+2. **User submits report** → OB number generated (e.g., OB-12345678-ABCD)
+3. **Report appears in admin dashboard** → Admin reviews case
+4. **Admin assigns officer** → Case assigned to specific officer
+5. **Officer updates status** → User sees real-time update
+6. **Case progresses** → Multiple status updates tracked
 7. **Case resolved** → Marked as complete
-8. **User views audit trail** → Sees complete history
+8. **User views audit trail** → Sees complete history of access and changes
+
+---
+
+## 📊 The Scale of Gender-Based Violence
+
+> **Together, we can make a difference**
+
+- **1 in 3** women globally affected by GBV
+- **70%** of cases go unreported
+- **24/7** support available through EmpowerHer
+
+---
 
 ## 🛠️ Development
 
@@ -313,6 +374,8 @@ cd backend
 npm run create-admin
 ```
 
+---
+
 ## 📝 Environment Variables
 
 ### Backend Required Variables
@@ -325,30 +388,83 @@ npm run create-admin
 ### Frontend Required Variables
 - `NEXT_PUBLIC_API_URL` - Backend API URL
 
+---
+
+## 🌟 Why EmpowerHer?
+
+### ✅ **Completely Free**
+No hidden costs, no subscriptions, no payment barriers. Everyone deserves access to justice.
+
+### 🤖 **AI-Powered Support**
+24/7 intelligent assistance to guide you through difficult times and connect you with resources.
+
+### 🔒 **Privacy First**
+Anonymous reporting options and complete audit trails ensure your privacy and transparency.
+
+### 📊 **Full Transparency**
+See exactly who accessed your report and when, ensuring accountability at every step.
+
+### 🚀 **Easy to Use**
+Simple, intuitive interface designed for ease of use during difficult times.
+
+---
+
 ## 🤝 Contributing
 
 This is a platform for supporting survivors of gender-based violence. Contributions should prioritize:
-- User safety and privacy
-- Accessibility
-- Security
-- User experience
+- 🛡️ User safety and privacy
+- ♿ Accessibility
+- 🔒 Security
+- 💜 User experience
+
+---
 
 ## 📄 License
 
 MIT License - See LICENSE file for details
 
-## 🆘 Support
+---
 
-For technical support or questions:
-- Check the documentation
-- Review API endpoints
-- Contact the development team
+## 🆘 Support & Resources
+
+### Emergency Contacts
+- **Emergency Services**: 1195
+- **GVRC Hotline**: +254 719 638 006
+- **24/7 Support**: Available through the platform
+
+### Platform Support
+- **Email**: support@empowerher.org
+- **Help Center**: Available in the application
+- **AI Assistant**: 24/7 support through the dashboard
+
+### Additional Resources
+- Emergency Contacts
+- Legal Support
+- Counseling Services
+- Medical Support
+
+---
 
 ## 🙏 Acknowledgments
 
 Built with care for survivors of gender-based violence. This platform aims to provide a safe, secure, and supportive environment for reporting incidents and accessing help.
 
----
-
 **Remember**: If you're in immediate danger, call **1195** or your local emergency number right away.
 
+---
+
+## 🔗 Quick Links
+
+- 🌐 **Live Application**: [https://empowerhercom.vercel.app/](https://empowerhercom.vercel.app/)
+- 🔧 **API Endpoint**: [https://group-44-hackathon.onrender.com](https://group-44-hackathon.onrender.com)
+- 📡 **API Health Check**: [https://group-44-hackathon.onrender.com/api/health](https://group-44-hackathon.onrender.com/api/health)
+
+---
+
+<div align="center">
+
+**💜 Empowering Victims, Accelerating Justice 💜**
+
+Made with ❤️ for survivors everywhere
+
+</div>
